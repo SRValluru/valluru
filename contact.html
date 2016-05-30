@@ -1,45 +1,55 @@
+<!DOCTYPE HTML>
 <html>
+
 <head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title>Hyderabad House</title>
+  <title>ACT FinerNET</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="stylesheet" type="text/css" href="style/bootstrap-combined-min.css" title="style" />
 </head>
+
 <body>
-<p><span style="background-color: rgb(255, 240, 245);"><img alt="" src="/403447-hyderabad-house.jpg" style="width: 177px; height: 143px; float: left;" /></span></p>
-
-<p></p>
-
-<p></p>
-
-<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>
-			<p>&nbsp; &nbsp;&nbsp;<a href="http://ravi.snehithpanguluri.com">HOME</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://ravi.snehithpanguluri.com/about.html">ABOUT US</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://ravi.snehithpanguluri.com/menu.html">OUR MENU</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://ravi.snehithpanguluri.com/contact.html">CONTACT US</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-<p></p>
-
-<hr />
-<h3 style="text-align: center;"></h3>
-
-<h2 style="text-align: center;"><span style="color: rgb(165, 42, 42);"><span style="font-family: georgia, serif;"><strong>Contact Us</strong></span></span></h2>
-
-<hr />
-<h2 style="text-align: center;"></h2>
-
-<h3 style="box-sizing: border-box; margin: 0px 0px 10px; font-family: 'PT Sans', sans-serif; color: rgb(51, 51, 51); font-size: 14px; font-weight: normal; line-height: 20px; text-align: center; background-color: rgb(255, 255, 255);"></h3>
-
-<p style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.5409105836025!2d-121.97726768468902!3d37.542317979802355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc0be7ab08f1b%3A0xfd2e87ef7e4f961e!2s39810+Fremont+Blvd%2C+Fremont%2C+CA+94538!5e0!3m2!1sen!2sus!4v1460319923744" style="border:0" width="1000"></iframe></p>
-
-<hr />
-<p style="text-align: center;"><span style="color: rgb(255, 255, 255); font-family: 'Open Sans', sans-serif, Times, serif; font-size: 14px; line-height: 48px; background-color: rgb(17, 17, 17);">Copyright 2016 &copy; Hyderabad House All Rights Reserved.</span></p>
-
-<h3 style="text-align: center;"><a href="http://ravi.snehithpanguluri.com/sitemap.xml"><span style="font-family:georgia,serif;"><strong><span style="color:#FFFFFF;"><span style="background-color:#000000;">Sitemap</span></span></strong></span></a></h3>
-
-<p style="text-align: center;"></p>
-
-<hr /></body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">ACT <span class="logo_colour">fiberNET</span></a></h1>
+          <h2>Incredible FAST</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="client.html">Clients</a></li>
+          <li class="selected"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+    <!--image div starts from here-->
+    <div class="home_img"><img src="Images/Contact%20Us/download.jpg" style="width: 100%;" /></div>      
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1 style="text-align:center;font-size:25px; text-decoration:underline;"><strong>Contact Us</strong></h1>
+        <div class="text-center">
+<p style="margin-bottom:0px;"><span class="contact-label"><strong>Name: </strong></span><span class="contact-input"><input type="text" id="Name"></span></p> 
+<p style="margin-bottom:0px;"><span class="contact-label"><strong>Email ID: </strong></span><span class="contact-input"><input type="Email" id="Email ID"></span></p>
+<p style="margin-bottom:0px;"><span class="contact-label"><strong>Phone: </strong></span><span class="contact-input"><input type="text" id="Phone"></span></p>
+<p style="margin-bottom:0px;"><span class="contact-label"><strong>Feedback: </strong></span><span class="contact-input"><input type="text" id="Feedback"></span></p>
+<script type="text/javascript" src="main.js"></script>
+<input type="button" value="SUBMIT" onclick="clicked()" />
+</div>
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; Ravi Teja
+    </div>
+  </div>
+</body>
 </html>
